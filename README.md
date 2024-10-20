@@ -44,5 +44,5 @@ Once installed, you will need to update certain configuration variables inside t
 
 3. Auto-correlation (optional): The script auto-correlates the RDEF files.
 ```bash
-python auto_correlation_rdef.py /path/to/rdef/files/
+python auto_correlation_rdef.py /path/to/rdef/files/filenames
 ```
