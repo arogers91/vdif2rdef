@@ -37,7 +37,7 @@ Once installed, you will need to update certain configuration variables inside t
 ./sidefile_creator.sh /path/to/vdif/files/ 
 ```
 
-2. Translate VDIF to RDEF: The scirpt translates VLBI data files in the VDIF format into the RDEF format.
+2. Translate VDIF to RDEF: The script translates VLBI data files in the VDIF format into the RDEF format.
 ```bash
 ./vdif2rdef.sh /path/to/vdif/files/
 ```
