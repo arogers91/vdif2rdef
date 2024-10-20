@@ -65,7 +65,7 @@ for FILE in "${FILE_PATH}"/*; do
 
         # Execute the translation script with the specified parameters
         echo "Running ${TRANSLATOR_PATH}/vdif2rdef.py ${FILE} -auxfile ${AUX_FILE} -skip ${SKIP_SECONDS} -maxseconds ${MAX_SECONDS} -channels ${CHANNELS_TO_EXTRACT} || exit 1"
-        ${TRANSLATOR_PATH}/vdif2rdef.py "${FILE}" -auxfile "${AUX_FILE}" -skip "${SKIP_SECONDS}" -maxseconds "${MAX_SECONDS}" -channels "${CHANNELS_TO_EXTRACT}" || exit 1
+        ${TRANSLATOR_PATH}/vdif2rdef.py "${FILE}" -auxfile "${AUX_FILE}" -skip "${SKIP_SECONDS}" -maxseconds "${MAX_SECONDS}" -channels ${CHANNELS_TO_EXTRACT} || exit 1
 
         echo "... done for ${FILE}."
     fi
